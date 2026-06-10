@@ -59,5 +59,16 @@ password.addEventListener("input", () => {
         let li = document.createElement("li");
         li.textContent = item;
         tips.appendChild(li);
-    });
+    });const toggleBtn = document.getElementById("toggleBtn");
+
+toggleBtn.addEventListener("click", () => {
+    if (password.type === "password") {
+        password.type = "text";
+        toggleBtn.textContent = "Hide Password";
+    } else {
+        password.type = "password";
+        toggleBtn.textContent = "Show Password";
+    }
+});
+    
 });
