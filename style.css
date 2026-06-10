@@ -75,3 +75,11 @@ input:focus {
     margin-bottom: 8px;
     color: #d1d5db;
 }
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
